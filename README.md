@@ -1,1 +1,1 @@
-Active Record Assciations Basics
+Active Record Associations Basics
