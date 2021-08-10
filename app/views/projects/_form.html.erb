@@ -23,12 +23,12 @@
 
   <div class="field">
     <%= form.label :percent %>
-    <%= form.text_field :percent %>
+    <%= form.number_field :percent %>
   </div>
 
   <div class="field">
-    <%= form.label :age %>
-    <%= form.text_field :age %>
+    
+    <%= form.number_field :user_id ,id: :project_user_id,value:current_user.id , type: :hidden %>
   </div>
 
 
