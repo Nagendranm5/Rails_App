@@ -33,6 +33,10 @@
 <h3><%= link_to 'New Project', new_project_path %> | 
 
 
-<%= link_to "Back", home_index_path %></h3>
+<%= link_to "Back", home_index_path %>| 
+
+
+ <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+</h3>
 
 <%# </body> %>
